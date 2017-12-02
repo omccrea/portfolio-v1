@@ -4,6 +4,10 @@
 @import 'foundation';
 @import 'motion-ui';
 
+//modified by me
+
+//end of modified by me
+
 @include foundation-global-styles;
 // @include foundation-grid;
 // @include foundation-flex-grid;
@@ -51,3 +55,7 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'components/top-global';
+@import 'components/hero';
+@import 'components/sectioning';

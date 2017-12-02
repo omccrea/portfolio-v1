@@ -62,6 +62,7 @@
 
 @import 'util/util';
 
+
 // 1. Global
 // ---------
 
@@ -89,7 +90,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 9;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -100,6 +101,10 @@ $global-color-pick-contrast-tolerance: 0;
 $print-transparent-backgrounds: true;
 
 @include add-foundation-colors;
+
+//custom Global
+$global-transition: all 0.25s ease-in;
+$darker-blue: #0e79b2;
 
 // 2. Breakpoints
 // --------------

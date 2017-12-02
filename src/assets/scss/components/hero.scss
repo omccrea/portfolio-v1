@@ -1,0 +1,19 @@
+$hero-full-screen-bg: url('https://unsplash.it/1000/700?image=573') center center no-repeat;
+$hero-full-screen-bg-size: cover;
+$hero-full-screen-text-color: $white;
+
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: $hero-full-screen-bg;
+  background-size: $hero-full-screen-bg-size;
+}
+
+  .hero-content {
+    text-align: left;
+    color: $hero-full-screen-text-color;
+    padding: 1rem;
+  }
