@@ -1,0 +1,26 @@
+$sectioning-background-color: #999999;
+
+.section {
+  display: flex;
+  flex-direction: row;
+  background: $sectioning-background-color;
+  background-size:cover;
+  padding: 1rem;
+}
+
+.project-section {
+  background: #777777;
+}
+
+.centered-heading {
+  color: #ffffff;
+  display: flex;
+  font-weight:400;
+  padding-left: 1rem;
+  justify-content: left;
+}
+
+.cellular-adjust {
+  margin: 0 0 1rem 0;
+  padding: 0 3rem 1rem;
+}
